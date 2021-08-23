@@ -1,0 +1,33 @@
+$RButton::
+send, 2
+sleep 20
+click, Right
+return
+
+e::
+send, r
+sleep 40
+click, Right
+sleep 40
+send, r
+sleep 40
+send, r
+sleep 40
+return
+
+f::
+send, r
+sleep 40
+send, r
+sleep 40
+click, Right
+sleep 40
+send, r
+sleep 40
+return
+
+
+f12::
+Suspend, Permit
+Suspend, Toggle
+Return
